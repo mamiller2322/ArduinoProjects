@@ -9,7 +9,7 @@
 // See also http://rcarduino.blogspot.co.uk/2012/04/how-to-read-multiple-rc-channels-draft.html
 
 #define THROTTLE_SIGNAL_IN 1 // INTERRUPT 1 = DIGITAL PIN 3 - use the interrupt number in attachInterrupt
-#define THROTTLE_SIGNAL_IN_PIN 3 // INTERRUPT 0 = DIGITAL PIN 3 - use the PIN number in digitalRead
+#define THROTTLE_SIGNAL_IN_PIN 3 // INTERRUPT 1 = DIGITAL PIN 3 - use the PIN number in digitalRead
 
 #define NEUTRAL_THROTTLE 1500 // this is the duration in microseconds of neutral throttle on an electric RC Car
 
